@@ -1,0 +1,773 @@
+<!doctype html>
+<!--[if lte IE 8]> <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- SITE TITLE AND DESCRIPTION 
+    *********************************************** -->
+    <title>Components | Motor</title>
+    <meta name="description" content="">
+
+    <!-- FIXES
+    *********************************************** -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- STYLESHEETS
+    *********************************************** -->
+
+    <!-- Docs stylesheets -->
+    <link rel="stylesheet" href="assets/css/prettify.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Motor stylesheets -->
+    <link rel="stylesheet" href="../css/motor.css">
+
+    <!-- Styles just for this page -->
+    <style>
+      .grid-example [class *= 'col-'] {
+        font-size: 14px;
+        line-height: 20px;
+        color: #444;
+        background: #CFF09E;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 1px solid #A4E246;
+        overflow: hidden;
+      }
+
+      .grid-example .docs_just-text [class *= 'col-'] {
+        background: transparent;
+        color: #fff;
+        border: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .grid-example .docs_novertpad [class *= 'col-'] {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .grid-example .row + .row {
+        margin-top: 12px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <!-- WRAPPER
+    *********************************************** -->
+    <div class="docs_wrapper">      
+      <!-- HEADER
+      *********************************************** -->
+      <header id="docs_header">
+        <h1>Components</h1>
+      </header>
+      <!-- *********************************************** 
+      END HEADER -->
+
+      <!-- CONTENT
+      *********************************************** -->
+      <div class="docs_content docs_typo">
+        
+        <!-- GRID
+        *********************************************** -->
+        <div class="content">
+          <h2>Form controls</h2>
+          <h3>Buttons</h3>
+          <h4>Default buttons</h4>
+          <p>
+            <a href="#" class="button">Default button</a>
+            <button class="button">Default button</button>
+            <input type="submit" class="button" value="Default button">
+          </p>
+          <h4>Block buttons</h4>
+          <div class="row">
+            <div class="col-12 xs_col-4 sm_col-3">
+              <a href="#" class="button button--block">Block button</a>
+            </div>
+            <div class="col-12 xs_col-4 sm_col-3">
+              <a href="#" class="button button--block">Block button</a>
+            </div>
+            <div class="col-12 xs_col-4 sm_col-3">
+              <a href="#" class="button button--block">Block button</a>
+            </div>
+          </div>
+          <h4>Button colors</h4>
+          <p>
+            <button class="button">Primary</button>
+            <button class="button-neutral">Neutral</button>
+            <button class="button-secondary">Secondary</button>
+            <button class="button-info">Information</button>
+            <button class="button-success">Success</button>
+            <button class="button-warning">Warning</button>
+            <button class="button-danger">Danger</button>
+          </p>
+          <h4>Button styles</h4>
+          <p>
+            <button class="button">Primary</button>
+            <button class="button-neutral">Neutral</button>
+            <button class="button-secondary">Secondary</button>
+            <button class="button-info">Information</button>
+            <button class="button-success">Success</button>
+            <button class="button-warning">Warning</button>
+            <button class="button-danger">Danger</button>
+          </p>
+          <p>
+            <button class="button-outline">Primary</button>
+            <button class="button-outline-neutral">Neutral</button>
+            <button class="button-outline-secondary">Secondary</button>
+            <button class="button-outline-info">Information</button>
+            <button class="button-outline-success">Success</button>
+            <button class="button-outline-warning">Warning</button>
+            <button class="button-outline-danger">Danger</button>
+          </p>
+          <p>
+            <button class="button-3d">Primary</button>
+            <button class="button-3d-neutral">Neutral</button>
+            <button class="button-3d-secondary">Secondary</button>
+            <button class="button-3d-info">Information</button>
+            <button class="button-3d-success">Success</button>
+            <button class="button-3d-warning">Warning</button>
+            <button class="button-3d-danger">Danger</button>
+          </p>
+          <p>
+            <button class="button-gradient">Primary</button>
+            <button class="button-gradient-neutral">Neutral</button>
+            <button class="button-gradient-secondary">Secondary</button>
+            <button class="button-gradient-info">Information</button>
+            <button class="button-gradient-success">Success</button>
+            <button class="button-gradient-warning">Warning</button>
+            <button class="button-gradient-danger">Danger</button>
+          </p>
+          <h4>Button sizes</h4>
+          <p>
+            <button class="button">Default size</button>
+            <button class="button button--xs">Extrasmall size</button>
+            <button class="button button--sm">Small size</button>
+            <button class="button button--lg">Large size</button>
+          </p>
+          <h4>Button groups</h4>
+          <p>
+            <div class="button-group">
+              <button class="button">Success</button>
+              <button class="button">Success</button>
+              <button class="button">Success</button>
+            </div>
+            <div class="button-group">
+              <button class="button-success">Success</button>
+              <button class="button-warning">Warning</button>
+              <button class="button-danger">Danger</button>
+            </div>
+            <div class="button-group">
+              <a href="#" class="button-outline">Primary</a>
+              <a href="#" class="button-outline">Primary</a>
+              <a href="#" class="button-outline">Primary</a>
+            </div>
+          </p>
+          <h3>Text inputs</h3>
+          <h4>Default text inputs</h4>
+          <p>
+            <input type="text" class="text-input" placeholder="Default text input">
+          </p>
+          <p>
+            <textarea class="text-input" placeholder="Default text input" rows="4"></textarea>
+          </p>
+          <p>
+            <select class="text-input" placeholder="Default text input">
+              <option disabled selected>Default selectbox</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </p> 
+          <h4>Validation states</h4>
+          <p>
+            <input type="text" class="text-input error" placeholder="Error">
+          </p>
+          <p>
+            <input type="text" class="text-input warning" placeholder="Warning">
+          </p>
+          <p>
+            <input type="text" class="text-input success" placeholder="Success">
+          </p>
+          <p>
+            <input type="text" class="text-input" placeholder="Default text input" disabled>
+          </p>
+          <h4>Input sizes</h4>
+          <p>
+            <input type="text" class="text-input text-input--xs" placeholder="Default text input">
+          </p>
+          <p>
+            <input type="text" class="text-input text-input--sm" placeholder="Default text input">
+          </p>
+          <p>
+            <input type="text" class="text-input text-input--lg" placeholder="Default text input">
+          </p>
+          <p>
+            <textarea class="text-input text-input--xs" placeholder="Default text input" rows="4"></textarea>
+          </p>
+          <p>
+            <textarea class="text-input text-input--sm" placeholder="Default text input" rows="4"></textarea>
+          </p>
+          <p>
+            <textarea class="text-input text-input--lg" placeholder="Default text input" rows="4"></textarea>
+          </p>
+          <p>
+            <select class="text-input text-input--xs" placeholder="Default text input">
+              <option disabled selected>Default selectbox</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </p>
+          <p>
+            <select class="text-input text-input--sm" placeholder="Default text input">
+              <option disabled selected>Default selectbox</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </p>
+          <p>
+            <select class="text-input text-input--lg" placeholder="Default text input">
+              <option disabled selected>Default selectbox</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </p>
+          <h4>Autoresize textarea</h4>
+          <p>
+            <textarea class="text-input" placeholder="Autoresize" rows="4" data-textarea-autoresize data-textarea-autoresize-max-height='300'></textarea>
+          </p>
+          <h3>Input groups</h3>
+          <h4>Text input and appendix</h4>
+          <p>
+            <span class="input-group input-group--collapse-outside">
+              <span class="input-group_appendix">Price</span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <p>
+            <span class="input-group input-group--collapse-outside">
+              <span class="input-group_appendix">$</span>
+              <input type="text" class="text-input" placeholder="Default text input">
+            </span>
+          </p>
+          <p>
+            <span class="input-group input-group--collapse-outside">
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <h4>Text input and any content part</h4>
+          <p>
+            <span class="input-group">
+              <span class="input-group_part" style="padding-right: 12px;">Any content</span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_part" style="padding-left: 12px;">Any content</span>
+            </span>
+          </p>
+          <h4>Text input and button</h4>
+          <p>
+            <span class="input-group">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+            </span>
+          </p>
+          <p>
+            <span class="input-group">
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+            </span>
+          </p>
+          <h4>Text input, segmented buttons and appendix</h4>
+          <p>
+            <span class="input-group input-group--collapse-outside">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <span class="input-group_part">
+                <button class="button">Next Button</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <h4>Collapse border modes</h4>
+          <p>
+            <span class="input-group input-group--collapse-outside">
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <p>
+            <span class="input-group input-group--collapse-inside">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+            </span>
+          </p>
+          <h4>Input group sizes</h4>
+          <p>
+            <span class="input-group input-group--xs input-group--collapse-outside">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <p>
+            <span class="input-group input-group--sm input-group--collapse-outside">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <p>
+            <span class="input-group input-group--lg input-group--collapse-outside">
+              <span class="input-group_part">
+                <button class="button">Action</button>
+              </span>
+              <input type="text" class="text-input" placeholder="Default text input">
+              <span class="input-group_appendix">$</span>
+            </span>
+          </p>
+          <h3>Checkbox and radio</h3>
+          <h4>Default checkbox and radio</h4>
+          <p>
+            <label class="checkbox"><input type="checkbox" checked><span>Checkbox</span></label>
+            <label class="checkbox"><input type="checkbox"><span>Checkbox with long label text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim</span></label>
+          </p>
+          <p>
+            <label class="radio"><input type="radio" name="radio-1" value="1" checked><span>Option 1</span></label>
+            <label class="radio"><input type="radio" name="radio-1" value="2"><span>Option 2</span></label>
+            <label class="radio"><input type="radio" name="radio-1" value="3"><span>Option 3</span></label>
+          </p>
+          <h4>Checkbox and radio styles</h4>
+          <p>
+            <label class="checkbox-filled"><input type="checkbox" checked><span>Checkbox filled</span></label>
+          </p>
+          <p>
+            <label class="radio-filled"><input type="radio" name="radio-2" value="1" checked><span>Option 1</span></label>
+            <label class="radio-filled"><input type="radio" name="radio-2" value="2"><span>Option 2</span></label>
+            <label class="radio-filled"><input type="radio" name="radio-2" value="3"><span>Option 3</span></label>
+          </p>
+          <h4>Disabled state</h4>
+          <p>
+            <label class="checkbox disabled"><input type="checkbox" checked disabled><span>Disabled</span></label>
+            <label class="checkbox disabled"><input type="checkbox" disabled><span>Disabled</span></label>
+            <label class="checkbox-filled disabled"><input type="checkbox" checked disabled><span>Disabled</span></label>
+            <label class="radio disabled"><input type="radio" name="radio-4" value="1" checked disabled><span>Disabled</span></label>
+            <label class="radio disabled"><input type="radio" name="radio-4" value="2" disabled><span>Disabled</span></label>
+            <label class="radio-filled disabled"><input type="radio" name="radio-5" value="3" checked disabled><span>Disabled</span></label>
+          </p>
+          <h4>Inline modificator</h4>
+          <p>
+            <label class="checkbox checkbox--inline"><input type="checkbox" checked><span>Option 1</span></label>
+            <label class="checkbox-filled checkbox--inline"><input type="checkbox" checked><span>Option 2</span></label>
+          </p>
+          <p>
+            <label class="radio radio--inline"><input type="radio" name="radio-6" checked><span>Option 1</span></label>
+            <label class="radio radio--inline"><input type="radio" name="radio-6"><span>Option 2</span></label>
+            <label class="radio radio--inline"><input type="radio" name="radio-6"><span>Option 3</span></label>
+          </p>
+          <h3>Switch</h3>
+          <h4>Default switch</h4>
+          <p>
+            <label class="switch">
+              <input type="checkbox" name="switch-1">
+              <span class="switch_lever"></span>
+              <span class="switch_on">on</span>
+              <span class="switch_off">off</span>
+            </label>
+          </p>
+          <p>
+            <label class="switch">
+              <input type="radio" name="switch-radio" checked>
+              <span class="switch_lever"></span>
+            </label>
+            <label class="switch">
+              <input type="radio" name="switch-radio">
+              <span class="switch_lever"></span>
+            </label>
+            <label class="switch">
+              <input type="radio" name="switch-radio">
+              <span class="switch_lever"></span>
+            </label>
+          </p>
+          <h4>Switch styles</h4>
+          <p>
+            <label class="switch-doted">
+              <input type="checkbox" name="switch-2">
+              <span class="switch_lever"></span>
+              <span class="switch_on">on</span>
+              <span class="switch_off">off</span>
+            </label>
+          </p>
+          <p>
+            <label class="switch-ios">
+              <input type="checkbox" name="switch-3">
+              <span class="switch_lever"></span>
+              <span class="switch_on">on</span>
+              <span class="switch_off">off</span>
+            </label>
+          </p>
+          <h4>Disabled state</h4>
+          <p>
+            <label class="switch">
+              <input type="checkbox" name="switch-4" disabled>
+              <span class="switch_lever"></span>
+              <span class="switch_on">on</span>
+              <span class="switch_off">off</span>
+            </label>
+          </p>
+          <p>
+            <label class="switch">
+              <input type="checkbox" name="switch-5" checked disabled>
+              <span class="switch_lever"></span>
+              <span class="switch_on">on</span>
+              <span class="switch_off">off</span>
+            </label>
+          </p>
+          <h4>Inline modificator</h4>
+          <p>
+            <label class="switch switch--inline">
+              <input type="radio" name="switch-8" checked>
+              <span class="switch_lever"></span>
+            </label>
+            <label class="switch switch--inline">
+              <input type="radio" name="switch-8">
+              <span class="switch_lever"></span>
+            </label>
+            <label class="switch switch--inline">
+              <input type="radio" name="switch-8">
+              <span class="switch_lever"></span>
+            </label>
+          </p>
+          <div class="typo">
+            <h1>Typography Heading 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+            <h2>Typography Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+            <h3>Typography Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h4>Typography Heading 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h5>Typography Heading 5</h5>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h6>Typography Heading 6</h6>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h1>Typography Heading indentation 1</h1>
+            <h2>Typography Heading indentation 2</h2>
+            <h3>Typography Heading indentation 3</h3>
+            <h4>Typography Heading indentation 4</h4>
+            <h5>Typography Heading indentation 5</h5>
+            <h6>Typography Heading indentation 6</h6>
+            <h2>Paragraph sizes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <p class="p--large">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <p class="p--small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            <h2>Small and big tags</h2>
+            <p>Lorem <big>ipsum dolor</big> sit amet, <small>consectetuer adipiscing</small> elit.</p>
+            <h2>Text colors</h2>
+            <p class="color-secondary">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="color-brand">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="color-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="color-success">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="color-warning">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="color-danger">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <h2>Text higlightes</h2>
+            <h3>Marked text</h3>
+            <p>Lorem <mark>ipsum</mark> dolor sit amet, consectetuer <mark>adipiscing elit</mark>.</p>
+            <h3>Deleted and strikethrough text</h3>
+            <p><del>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</del> <s>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</s></p>
+            <h3>Underline and inserted text</h3>
+            <p><u>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</u> <ins>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</ins></p>
+            <h3>Bold text</h3>
+            <p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</strong> <b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</b></p>
+            <h3>Italic text</h3>
+            <p><em>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</em> <i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</i></p>
+            <h2>Code highlight</h2>
+            <p>Lorem <code>some code</code> sit amet, consectetuer adipiscing elit.</p>
+<pre>&lt;p>Lorem &lt;strong>ipsum dolor&lt;/strong> sit amet, consectetuer adipiscing elit.&lt;/p></pre>
+            <h2>Text alignment</h2>
+            <p class="align-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="align-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="align-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="align-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <h2>Text case</h2>
+            <p class="lowercase">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="uppercase">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p class="capitalize">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <h2>Blockquote</h2>
+            <blockquote class="blockquote-quotes">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</blockquote>
+            <blockquote class="blockquote-quotes">
+              <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+              <footer>Cool Author in <cite>Great Source</cite></footer>
+            </blockquote>
+            <blockquote>
+              <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+              <footer>Cool Author in <cite>Great Source</cite></footer>
+            </blockquote>
+            <blockquote>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</blockquote>
+            <h2>Lists</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+            <ul>
+              <li>aenean commodo ligula eget dolor;</li>
+              <li>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus;</li>
+              <li>sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus;</li>
+              <li>quam felis, ultricies nec, pellentesque eu, pretium quis, sem;</li>
+              <li>pede justo, fringilla vel, aliquet nec, vulputate eget, arcu;
+                <ul>
+                  <li>aenean commodo ligula eget dolor;</li>
+                  <li>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus;</li>
+                </ul>
+              </li>
+            </ul>
+            <ol>
+              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</li>
+              <li>Aenean massa.</li>
+              <li>Nulla consequat massa quis enim.</li>
+              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</li>
+              <li>Aenean massa.</li>
+              <li>Nulla consequat massa quis enim.</li>
+              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+              <li>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</li>
+              <li>Aenean massa.</li>
+              <li>Nulla consequat massa quis enim.</li>
+              <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                <ol>
+                  <li>aenean commodo ligula eget dolor;</li>
+                  <li>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus;</li>
+                </ol>
+              </li>
+            </ol>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+            <h2>Table</h2>
+            <table>
+              <tr>
+                <th>#</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>USER NAME</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Jhon</td>
+                <td>Thompson</td>
+                <td>@pierceking</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Helena</td>
+                <td>Lime</td>
+                <td>@fun_tasy</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Otto</td>
+                <td>Meaning</td>
+                <td>@bejin</td>
+              </tr>
+            </table>
+          </div>
+          <div class="grid-example">
+            <h2>Grid system</h2>
+            <h4>12 columns grid set</h4>
+            <div class="row">
+              <div class="col-12">.col-12</div>
+            </div>
+            <div class="row">
+              <div class="col-11">.col-11</div>
+              <div class="col-1">.col-1</div>
+            </div>
+            <div class="row">
+              <div class="col-10">.col-10</div>
+              <div class="col-2">.col-2</div>
+            </div>
+            <div class="row">
+              <div class="col-9">.col-9</div>
+              <div class="col-3">.col-3</div>
+            </div>
+            <div class="row">
+              <div class="col-8">.col-8</div>
+              <div class="col-4">.col-4</div>
+            </div>
+            <div class="row">
+              <div class="col-7">.col-7</div>
+              <div class="col-5">.col-5</div>
+            </div>
+            <div class="row">
+              <div class="col-6">.col-6</div>
+              <div class="col-6">.col-6</div>
+            </div>
+            <h4>Responsive columns</h4>
+            <div class="row">
+              <div class="sm_col-4">.sm_col-4</div>
+              <div class="sm_col-4">.sm_col-4</div>
+              <div class="sm_col-4">.sm_col-4</div>
+            </div>
+            <h4>Nested columns</h4>
+            <div class="row">
+              <div class="sm_col-6">
+                <div class="row">
+                  <div class="sm_col-6">.sm_col-6</div>
+                  <div class="sm_col-6">.sm_col-6</div>
+                </div>
+              </div>
+              <div class="sm_col-3">.sm_col-3</div>
+              <div class="sm_col-3">.sm_col-3</div>
+            </div>
+            <h4>Columns with offset</h4>
+            <div class="row">
+              <div class="sm_col-6">.sm_col-6</div>
+              <div class="sm_col-3 sm_col--offset-3">.sm_col-3.sm_col--offset-3</div>
+            </div>
+            <h4>Change columns order</h4>
+            <div class="row">
+              <div class="col-8 sm_col--right-4 lg_col--reset-order">.col-8.sm_col--right-4.lg_col--reset-order <br><br>Column will be moved to the right on screens from 768px <br>And it will returns to the left on screens from 1200px</div>
+              <div class="col-4 sm_col--left-8 lg_col--reset-order">.col-4.sm_col--left-8.lg_col--reset-order <br><br>Column will be moved to the left on screens from 768px <br>And it will returns to the right on screens from 1200px</div>
+            </div>
+            <div class="row">
+              <div class="sm_col-6 md_col--right-3">.sm_col-6.md_col--right-3</div>
+              <div class="sm_col-3 md_col--left-6">.sm_col-3.md_col--right-6</div>
+              <div class="sm_col-3">.sm_col-3</div>
+            </div>
+            <div class="row">
+              <div class="sm_col-6 md_col--right-6">.sm_col-6.md_col--right-6</div>
+              <div class="sm_col-3 md_col--left-3">.sm_col-3.md_col--left-3</div>
+              <div class="sm_col-3 md_col--left-9">.sm_col-3.md_col--left-9</div>
+            </div>
+            <h4>Collapse row</h4>
+            <div class="row docs_just-text">
+              <div class="col-6"><div class="docs_block">Block in column in default row</div></div>
+              <div class="col-6"><div class="docs_block">Block in column in default row</div></div>
+            </div>
+            <div class="row row--collapse docs_just-text">
+              <div class="col-6"><div class="docs_block">Block in column in collapsed row</div></div>
+              <div class="col-6"><div class="docs_block">Block in column in collapsed row</div></div>
+            </div>
+            <h4>Different gutter row</h4>
+            <div class="row row--gutter-3u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 3 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 3 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 3 units gutter (unit = 4px)</div></div>
+            </div>
+            <div class="row row--gutter-6u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 6 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 6 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 6 units gutter (unit = 4px)</div></div>
+            </div>
+            <div class="row row--gutter-9u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 9 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 9 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 9 units gutter (unit = 4px)</div></div>
+            </div>
+            <div class="row row--gutter-12u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 12 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 12 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 12 units gutter (unit = 4px)</div></div>
+            </div>
+            <div class="row row--gutter-15u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 15 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 15 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 15 units gutter (unit = 4px)</div></div>
+            </div>
+            <div class="row row--gutter-18u docs_just-text">
+              <div class="col-4"><div class="docs_block">Block in column with 18 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 18 units gutter (unit = 4px)</div></div>
+              <div class="col-4"><div class="docs_block">Block in column with 18 units gutter (unit = 4px)</div></div>
+            </div>
+            <h4>Responsive gutters</h4>
+            <div class="row sm_row--gutter-9u md_row--gutter-15u docs_just-text">
+              <div class="sm_col-4"><div class="docs_block">Block in column with 9 units gutter on screens from 768px  (unit = 4px)<br>And 15 units gutter on screens from 992px</div></div>
+              <div class="sm_col-4"><div class="docs_block">Block in column with 9 units gutter on screens from 768px  (unit = 4px)<br>And 15 units gutter on screens from 992px</div></div>
+              <div class="sm_col-4"><div class="docs_block">Block in column with 9 units gutter on screens from 768px  (unit = 4px)<br>And 15 units gutter on screens from 992px</div></div>
+            </div>
+            <h4>Responsive gutters reset</h4>
+            <div class="row sm_row--gutter-12u md_row--gutter-reset docs_just-text">
+              <div class="sm_col-4"><div class="docs_block">Block in column with 12 units gutter on screens from 768px  (unit = 4px)<br>And reset to default from 992px</div></div>
+              <div class="sm_col-4"><div class="docs_block">Block in column with 12 units gutter on screens from 768px  (unit = 4px)<br>And reset to default from 992px</div></div>
+              <div class="sm_col-4"><div class="docs_block">Block in column with 12 units gutter on screens from 768px  (unit = 4px)<br>And reset to default from 992px</div></div>
+            </div>
+            <h4>Vertical gutters for vertical columns mode</h4>
+            <div class="row row--vertical-gutter-6u md_row--vertical-gutter-0 docs_just-text docs_novertpad">
+              <div class="md_col-4"><div class="docs_block">The columns indented from another in vertical mode with 6 units (unit = 4px)</div></div>
+              <div class="md_col-4"><div class="docs_block">The columns indented from another in vertical mode with 6 units (unit = 4px)</div></div>
+              <div class="md_col-4"><div class="docs_block">The columns indented from another in vertical mode with 6 units (unit = 4px)</div></div>
+            </div>
+            <h4>Horizontal alignment</h4>
+            <div class="row row--centered docs_just-text">
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+            </div>
+            <div class="row row--justified docs_just-text">
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+              <div class="col-3"><div class="docs_block">.col-3</div></div>
+            </div>
+            <h4>Vertical alignment</h4>
+            <div class="row row--valign-middle">
+              <div class="col-4">Valign is really easy.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid.</div>
+            </div>
+            <div class="row row--valign-top">
+              <div class="col-4">Valign is really easy.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid.</div>
+            </div>
+            <div class="row row--valign-bottom">
+              <div class="col-4">Valign is really easy.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid.</div>
+            </div>
+            <div class="row row--valign-stretch">
+              <div class="col-4">Valign is really easy.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at. Valign is really easy, if use the grid you looking at.</div>
+              <div class="col-4">Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid. Valign is really easy, if use the grid you looking at. Try it in your projects and feel the power of the grid.</div>
+            </div>
+          </div>
+        </div>
+        <!-- *********************************************** 
+        END GRID -->
+
+      </div>
+      <!-- *********************************************** 
+      END CONTENT -->
+
+    </div>
+    <!-- *********************************************** 
+    END WRAPPER -->
+
+    <!-- SCRIPTS
+    *********************************************** -->
+
+    <!-- Docs scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.singlePageNav.js"></script>
+    <script src="assets/js/prettify.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- Framework scripts -->
+    <script src="../js/motor.js"></script>
+  </body>
+</html>

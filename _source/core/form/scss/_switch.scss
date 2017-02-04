@@ -1,0 +1,74 @@
+/*********************************************** 
+    Switch
+***********************************************/
+
+//  Mixins
+/////////////////////////////////////////////////
+@import 'switch-mixins';
+
+/* Switch default
+***********************************************/
+@if ($switch_default == true) {
+  .switch {
+    display: block;
+
+    @include create_switch($switch_width, $switch_height, $switch_border-width, $inputs_color_primary, $inputs_color_border, $inputs_color_background, $switch_border-color, false);
+
+    & + .switch,
+    & + .switch-doted,
+    & + .switch-ios {
+      margin-top: $unit * 3;
+    }
+  }
+}
+
+/* Switch dotted
+***********************************************/
+@if ($switch_doted == true) {
+  .switch-doted {
+    display: block;
+
+    @include create_switch($switch_width, $switch_height, $switch_border-width, $inputs_color_primary, $inputs_color_border, $inputs_color_background, $switch_border-color, true);
+
+    & + .switch,
+    & + .switch-doted,
+    & + .switch-ios {
+      margin-top: $unit * 3;
+    }
+  }
+}
+
+/* Switch dotted
+***********************************************/
+@if ($switch_ios == true) {
+  .switch-ios {
+    display: block;
+
+    @include create_switch-ios($switch_width, $switch_height, $switch_border-width, $inputs_color_primary, #fff, $inputs_color_border);
+
+    & + .switch,
+    & + .switch-doted,
+    & + .switch-ios {
+      margin-top: $unit * 3;
+    }
+  }
+}
+
+/* Checkbox modifiers
+***********************************************/
+
+/* Make switch to be an inline block */
+.switch--inline {
+  display: inline-block;
+  margin: 0 $unit * 3 0 0;
+
+  & + .switch,
+  & + .switch-doted,
+  & + .switch-ios {
+    margin-top: 0;
+  }
+}
+
+
+
+

@@ -1,0 +1,41 @@
+/////////////////////////////////////////////////
+//  Global scss file
+//  There should be included all style files 
+//  for compilation
+/////////////////////////////////////////////////
+
+//  Base components
+/////////////////////////////////////////////////
+@import 'core/base/scss/base';
+
+//  Config
+/////////////////////////////////////////////////
+@import 'config';
+
+//  Core Components
+/////////////////////////////////////////////////
+
+// Snippets
+@import 'core/snippets/scss/snippets';
+
+// Layout
+@import 'core/layout/scss/layout';
+
+// Grid
+@import 'core/grid/scss/grid';
+
+// Inputs
+@import 'core/form/scss/form';
+
+// Typography
+@import 'core/typography/scss/typography';
+
+//  Modules
+/////////////////////////////////////////////////
+
+// Header section
+@import 'modules/header/scss/header';
+
+//  Custom user styles
+/////////////////////////////////////////////////
+@import 'custom/scss/custom';

@@ -1,0 +1,54 @@
+/*********************************************** 
+    Layout
+***********************************************/
+
+//  Include local config
+/////////////////////////////////////////////////
+@import 'config';
+
+//  Mixins
+/////////////////////////////////////////////////
+@import 'layout-mixins';
+
+//  Style reset
+/////////////////////////////////////////////////
+@import 'layout-reset';
+
+//  Print styles
+/////////////////////////////////////////////////
+@import 'layout-print';
+
+//  Set default font size settings to use with rem
+/////////////////////////////////////////////////
+
+/* html and body
+***********************************************/
+html {
+  font-size: 10px;
+  font-family: $base_font-family;
+}
+
+body {
+  font-size: $base_font-size;
+  color: get-color(text);
+  background: get-color(background);
+}
+
+/* Page content
+***********************************************/ 
+.content-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@if $content-fluid_max-width != 100% and $content-fluid_max-width != '100%' {
+  /* Maximum width for fluid content */
+  .content-fluid {
+    max-width: $content-fluid_max-width;
+  }
+}
+
+/* Responsive styles for content */
+.content {
+  @include create_content();
+}
