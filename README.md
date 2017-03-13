@@ -10,9 +10,9 @@
 * All the Javascript code is independent and is writen on pure JS
 * Browsers: Firefox, Chrome, Safari, iOS, Android, IE8+
 
-Written by: Dzmitry Vasileuski
+Written by: Dzmitry Vasileuski  
 Idea & Specification: Ivan Protsko
 
 ###License
-The Freeware License (Freeware)
+The Freeware License (Freeware)  
 Please read License agreement in the repository root.
