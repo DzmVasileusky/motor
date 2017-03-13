@@ -11,6 +11,7 @@
 * Browsers: Firefox, Chrome, Safari, iOS, Android, IE8+
 
 Written by: Dzmitry Vasileuski
+Idea & Specification: Ivan Protsko
 
 ###License
 The Freeware License (Freeware)
